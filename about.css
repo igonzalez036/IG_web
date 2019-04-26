@@ -1,37 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-body{
-    background-color: peachpuff;
+*
+{
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-}
-.navbar-name{
-    float: left;
-    position: absolute;
-    margin-top: 2cm;
-    margin-left: 2cm;
-    margin-bottom: 2cm;
+    padding:0;
 }
 
-.navbar-container{
-    position: absolute;
-    background-color: lightsalmon;
-    width: 100%;
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-
-.navbar-container a{
-    /*background-color; aqua;*/
-    text-decoration: none;
-    color: lightpink;
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
 }
-.links li{
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-right: 2em;
+.navbar-nav li
+{
+    padding: 0 10px;
 }
-.navbar-links ul{
+.navbar-nav li a
+{
     float: right;
-    
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.navbar-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
 }
